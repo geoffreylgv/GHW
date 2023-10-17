@@ -17,4 +17,6 @@ const templateHML = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf-
 for (let [slug, url] of Object.entries(redirects))
 {
     console.log("Generating HTML page for", slug)
+
+    const html = templateHML.replaceAll("https://example.com", url)
 }
