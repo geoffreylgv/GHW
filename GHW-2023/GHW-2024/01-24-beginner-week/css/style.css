@@ -1,0 +1,167 @@
+/*  =========================>  All the style <============================*/
+
+
+/* GENERAL style*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    background: #bfbfbf url("../img/bg.jpg") repeat-x;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Heder*/
+
+header {
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Metal Mania", 'sans-serif';
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+/* Main menu */
+
+#main-menu ul {
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 148px;
+}
+
+#main-menu ul li {
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bw {
+    position: absolute;
+    left: 0px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: url("../img/bw.jpg") no-repeat;
+}
+
+.color {
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url("../img/color.jpg") no-repeat;
+}
+
+#part-2 div {
+    background-position: -140px 0px;
+}
+
+#part-3 div {
+    background-position: -280px 0px;
+}
+
+#part-4 div {
+    background-position: -420px 0px;
+}
+
+#part-5 div {
+    background-position: -560px 0px;
+}
+
+.description {
+    position: absolute;
+    left: 140px;
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background: #fff;
+}
+
+.description h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "Metal Mania", 'sans-serif';
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.description h3 {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: "Lobster Two", 'sans-serif';
+    background: #e74b03;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+}
+
+.description p {
+    padding-top: 35px;
+    font-family: "Lobster Two", 'sans-serif';
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+}
+
+
+/* Button- menu */
+
+#button-menu {
+    float: left;
+    width: 100%;
+    padding: 170px 0 50px 0;
+}
+
+#button-menu ul {
+    float: left;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 0;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Metal Mania", 'sans-serif';
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+    border: 2px solid #e74b03;
+    opacity: 0.9;
+    border-radius: 5px;
+    background: rgb(228, 114, 21);
+}
+
+.hoveredButton {
+    background: #e74b03;
+    border: 2px solid rgb(228, 114, 21);
+    font-size: 24px;
+}
